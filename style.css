@@ -8,8 +8,69 @@ html {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
-body {
+.grid-container {
+  margin: 80px;
+  background-color: lightgray;
   display: grid;
-  grid-template-columns: 50%, 25%, 25%;
-  grid-template-rows: 50%, 50%;
+  max-width: 800px;
+  max-height: 600px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  
+}
+
+
+.card1 {
+
+  background-color: hsl(263, 55%, 52%);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-position: top 5px right 30px;
+  background-repeat: no-repeat;
+  background-size: ;
+  grid-column: span 2;
+  padding: 1rem;
+
+}
+
+.card2 {
+  /* max-height: 50%; */
+
+
+
+}
+
+.card3 {
+
+/* min-height: 100%; */
+grid-row: span 2;
+}
+
+.card4 {
+  
+  /* max-height: 50%; */
+
+
+ 
+}
+
+.card5 {
+
+  grid-column: span 2;
+  /* max-height: 50%; */
+
+}
+
+
+.card1 .name, .card2 .name, .card5 .name {
+  color: white;
+  font-weight: bold;
+}
+
+.card1 .status, .card2 .status, .card5 .status {
+  color: white;
+}
+
+
+.testimonial-detail {
+  font-size: 13px;
 }
