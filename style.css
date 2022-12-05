@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 50%, 25%, 25%;
+  grid-template-rows: 50%, 50%;
+}
