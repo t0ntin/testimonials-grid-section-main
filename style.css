@@ -123,3 +123,14 @@ img {
 .testimonial {
   margin-top: 1rem;
 }
+
+@media(max-width: 500px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    height: 1513px;
+    margin-bottom: 30px;
+  }
+  .card1, .card5 {
+  grid-column: span 1;
+  }
+}
