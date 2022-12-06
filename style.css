@@ -6,60 +6,66 @@
 
 html {
   font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: lightgray;
 }
 
 .grid-container {
   margin: 80px;
-  background-color: lightgray;
   display: grid;
-  max-width: 800px;
-  max-height: 600px;
+  max-width: 1000px;
+  max-height: 80vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  
 }
 
+.img-and-info-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+img {
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+
+.card1, .card2, .card3, .card4, .card5 {
+  padding: 1rem;
+  border-radius: .6rem;
+}
 
 .card1 {
-
   background-color: hsl(263, 55%, 52%);
   background-image: url(./images/bg-pattern-quotation.svg);
   background-position: top 5px right 30px;
   background-repeat: no-repeat;
-  background-size: ;
+  background-size: 80px;
   grid-column: span 2;
-  padding: 1rem;
 
 }
 
 .card2 {
-  /* max-height: 50%; */
-
-
-
+  background-color: hsl(217, 19%, 35%);
 }
 
 .card3 {
-
-/* min-height: 100%; */
-grid-row: span 2;
+  background-color: white;
+  grid-row: span 2;
 }
 
-.card4 {
-  
-  /* max-height: 50%; */
-
-
- 
+.card4 {  
+  background-color: white;
 }
 
 .card5 {
-
   grid-column: span 2;
-  /* max-height: 50%; */
-
+  background-color: hsl(219, 29%, 14%); 
 }
 
+.name, .status {
+  font-size: .7rem;
+}
 
 .card1 .name, .card2 .name, .card5 .name {
   color: white;
@@ -67,10 +73,45 @@ grid-row: span 2;
 }
 
 .card1 .status, .card2 .status, .card5 .status {
-  color: white;
+  color: rgb(180, 177, 177);
 }
 
+.card1 .testimonial, .card2 .testimonial, .card5 .testimonial {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card1 .testimonial-detail, .card2 .testimonial-detail, .card5 .testimonial-detail {
+  color: hsl(220, 12%, 80%);
+}
 
 .testimonial-detail {
-  font-size: 13px;
+  font-size: .8rem;
+}
+
+.card3 .name, .card4 .name {
+  color: hsl(217, 19%, 35%);
+  font-size: .7rem;
+  font-weight: bold;
+}
+
+.card3 .status, .card4 .status {
+  color: gray;
+  font-size: .7rem;
+}
+
+.card3 .testimonial, .card4 .testimonial {
+  color: hsl(217, 19%, 35%);
+  margin-bottom: 1rem;
+
+}
+
+.card3 .testimonial-detail, .card4 .testimonial-detail {
+  color: rgb(117, 116, 116);
+}
+
+.testimonial {
+  margin-top: 1rem;
 }
