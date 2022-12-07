@@ -127,8 +127,10 @@ img {
 @media(max-width: 500px) {
   .grid-container {
     grid-template-columns: 1fr;
-    height: 1513px;
+    height: 1586px;
     margin-bottom: 30px;
+    padding: 1rem;
+
   }
   .card1, .card5 {
   grid-column: span 1;
