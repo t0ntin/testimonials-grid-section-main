@@ -13,6 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: auto;
 }
 
 .grid-container {
@@ -21,7 +22,6 @@ body {
   max-width: 1150px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  /* height: 100vh; */
 }
 
 .img-and-info-container {
@@ -127,7 +127,6 @@ img {
 @media(max-width: 500px) {
   .grid-container {
     grid-template-columns: 1fr;
-    /* height: 1586px; */
     margin-bottom: 30px;
     padding: 1rem;
   }
