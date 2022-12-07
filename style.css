@@ -18,10 +18,10 @@ body {
 .grid-container {
   padding: 2rem 0rem;
   display: grid;
-  max-width: 1100px;
+  max-width: 1150px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .img-and-info-container {
@@ -127,10 +127,9 @@ img {
 @media(max-width: 500px) {
   .grid-container {
     grid-template-columns: 1fr;
-    height: 1586px;
+    /* height: 1586px; */
     margin-bottom: 30px;
     padding: 1rem;
-
   }
   .card1, .card5 {
   grid-column: span 1;
