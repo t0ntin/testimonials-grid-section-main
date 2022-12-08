@@ -16,7 +16,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshot.jpg)
+![](./images/screenshot.png)
 ![](./images/screenshot-mobile.jpg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://t0ntin.github.io/testimonials-grid-section-main/.com)
+- Solution URL: [My solution](https://t0ntin.github.io/testimonials-grid-section-main/.com)
 
 ## My process
 
@@ -62,8 +61,8 @@ I mainly used stackoverflow when I got stuck.
 ## Author
 
 - Website - [Andres Chaparro](https://t0ntin.github.io/testimonials-grid-section-main/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/t0ntin)
-- Twitter - [@yourusername](https://www.twitter.com/t0ntinx)
+- Frontend Mentor - [@t0ntin](https://www.frontendmentor.io/profile/t0ntin)
+- Twitter - [@t0ntinx](https://www.twitter.com/t0ntinx)
 
 
 ## Acknowledgments
