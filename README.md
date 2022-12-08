@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution](https://t0ntin.github.io/testimonials-grid-section-main/.com)
+- Solution URL: [My solution](https://t0ntin.github.io/testimonials-grid-section-main/)
 
 ## My process
 
