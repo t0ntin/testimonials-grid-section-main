@@ -40,7 +40,7 @@ img {
 }
 
 .card1, .card2, .card3, .card4, .card5 {
-  padding: 1.5rem;
+  padding: 1.5rem 1.8rem;
   border-radius: .6rem;
   box-shadow: 2px 2px 21px 0px rgba(128,125,128,1);;
 }
